@@ -221,8 +221,8 @@ color: #f4f4fd;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.advantages-list {display: flex; padding-left: 15px; padding-right: 15px; gap: 24px;}
-.advantages-item {width: calc ((100% - 3 * 24px) / 4);}
+.advantages-list {display: flex; flex-basis: calc((100% - 3 * 24px) / 4); padding-left: 15px; padding-right: 15px; gap: 24px;}
+.advantages-item 
 .team-section { padding-top: 120px;
  padding-bottom: 120px;}
  .team-header {margin-bottom: 72px}
