@@ -195,7 +195,7 @@ color: #f4f4fd;
 
 .header  {border-bottom: 1px solid #e7e9fc}
 .header .container {display: flex; align-items: center;  width:1158px; margin: 0 auto; padding: 0 15px 0 15px}
-.nav {display: flex; justify-content: space-between; align-items: center; padding: 24px 0 24px}
+.nav {display: flex; justify-content: space-between; align-items: center;}
 .nav-list {
         display: flex;
         justify-content: space-between;
@@ -221,17 +221,17 @@ color: #f4f4fd;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.advantages-list {display: flex; flex-basis: calc((100% - 3 * 24px) / 4); padding-left: 15px; padding-right: 15px; gap: 24px;}
-.advantages-item 
+.advantages-list {display: flex; padding-left: 15px; padding-right: 15px; gap: 24px;}
+.advantages-item {flex-basis: calc((100% - 3 * 24px)/ 4)}
 .team-section {
-padding: 120px 0;}
+padding-top: 120px; padding-bottom: 120px;}
  .team-header {margin-bottom: 72px}
 
-.team-list {display: flex; width: calc((1128px - 3 * 24px) / 4); padding-left: 15px;
-    padding-right: 15px;
-    gap: 24px; text-align: center;} 
+.team-list {display: flex; padding-left: 15px;
+    padding-right: 15px; gap: 24px; text-align: center; flex-basis: calc((100% - 3 * 24px) / 4)} 
     .worker-container {padding-top: 32px; padding-bottom: 32px;}
-.team-image {border-radius: 0 0 4px 4px; box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+.team-image { flex-basis: calc((100% - 3 * 24px)/ 4);
+border-radius: 0 0 4px 4px; box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
 .section-header-team {padding-top: 32px; margin-bottom: 8px; text-align: center;}
 .description-position {padding-bottom: 32px; align-items: center;}
 
