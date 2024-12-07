@@ -223,11 +223,11 @@ color: #f4f4fd;
 }
 .advantages-list {display: flex; flex-basis: calc((100% - 3 * 24px) / 4); padding-left: 15px; padding-right: 15px; gap: 24px;}
 .advantages-item 
-.team-section { padding-top: 120px;
- padding-bottom: 120px;}
+.team-section {
+padding: 120px 0;}
  .team-header {margin-bottom: 72px}
 
-.team-list {display: flex; width: calc((1128 - 3 * 24 px) / 4 ); padding-left: 15px;
+.team-list {display: flex; width: calc((1128px - 3 * 24px) / 4); padding-left: 15px;
     padding-right: 15px;
     gap: 24px; text-align: center;} 
     .worker-container {padding-top: 32px; padding-bottom: 32px;}
