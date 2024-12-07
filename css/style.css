@@ -199,8 +199,10 @@ color: #f4f4fd;
         justify-content: space-between;
         gap: 40px;
         align-items: center;
+     
     }
-
+.item {padding-top: 24px;
+    padding-bottom: 24px;}
 .address-list {display: flex; justify-content: flex-end; gap: 40px; align-items: center; padding-left: 332px;}
 
 .section-advantages {padding-top: 120px;
