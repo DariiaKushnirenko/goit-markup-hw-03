@@ -27,6 +27,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
+    margin-right: 76px;
+    margin-left: 15px;
 }
 
 .nav-logo .studio{
@@ -187,26 +189,29 @@ text-transform: uppercase;
 color: #f4f4fd;
 }
 
-.header .container {display: flex; justify-content: space-between;}
+.header {display: flex; align-items: center; margin-top: 24px; margin-left: auto; justify-content: space-between;  max-width: 100%;}
+.nav {display: flex; align-items: center; flex-grow: 0; width: max-content;}
+.nav-list {display: flex; justify-content: space-between; width: 261px; align-items: center;}
+.address-list {display: flex; justify-content: flex-end; gap: 40px; align-items: center; width: max-content;}
 
-.section {padding-top: 120px; padding-bottom: 120px;}
+.section {padding-top: 120px; padding-bottom: 120px; padding-top: 24px; padding-bottom: 24px; width: calc((261 - 2 * 40 px) / 3 )}
 
 
 .advantages-list {display: flex; width: calc((1128 - 3 * 24 px) / 4 ); padding-left: 15px; padding-right: 15px; column-gap: 24px;}
 
-.team-list {display: flex; width: calc((1128 - 3 * 24 px) / 4); padding-left: 15px;
+.team-list {display: flex; width: calc((1128 - 3 * 24 px) / 4 ); padding-left: 15px;
     padding-right: 15px;
     column-gap: 24px; text-align: center;} 
-    .team-image {border-radius: 0 0 4px 4px; box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
-    .section-header {padding-top: 32px; padding-bottom: 8px;}
-    .description {padding-bottom: 32px;}
-    .portfolio-header {padding-bottom: 72px;}
-    .portfolio-list {display: flex;
+.team-image {border-radius: 0 0 4px 4px; box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+.section-header {padding-top: 32px; padding-bottom: 8px;}
+.description {padding-bottom: 32px;}
+.portfolio-header {padding-bottom: 72px;}
+.portfolio-list {display: flex;
         padding-left: 15px;
         padding-right: 15px; column-gap: 24px; row-gap: 48px; flex-wrap: wrap; box-sizing: border-box;}
-        .portfolio-image {border-bottom: 1px solid #e7e9fc;
+.portfolio-image {border-bottom: 1px solid #e7e9fc;
             border-left: 1px solid #e7e9fc;
             border-right: 1px solid #e7e9fc;}
 
-        .footer .footer-logo {padding-top: 100px; padding-bottom: 16px;}
-        .item-footer {width: 264px;}
+.footer .footer-logo {padding-top: 100px; padding-bottom: 16px;}
+.item-footer {width: 264px;}
