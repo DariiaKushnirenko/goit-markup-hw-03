@@ -118,7 +118,7 @@ h2 {
     text-align: center;
     color: #2e2f42;
 }
-.section-header-team{
+.section-header-team, .section-header-portfolio, .section-header-advantages {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -126,28 +126,13 @@ h2 {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.section-header-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-.description-position{
+.description-position, .description-portfolio, .description-advantages{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
  
-}
-.description-portfolio {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 
 }
 .team-section{
