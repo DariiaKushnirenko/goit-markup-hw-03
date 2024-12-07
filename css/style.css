@@ -29,8 +29,6 @@ a {
     color: #4d5ae5; 
     margin-right: 76px;
     margin-left: 15px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-logo .studio{
@@ -201,8 +199,6 @@ color: #f4f4fd;
         justify-content: space-between;
         gap: 40px;
         align-items: center;
-        padding-top: 24px;
-    padding-bottom: 24px;
     }
 
 .address-list {display: flex; justify-content: flex-end; gap: 40px; align-items: center; padding-left: 332px;}
@@ -221,8 +217,8 @@ color: #f4f4fd;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.header .container {padding-top: 24px;
-padding-bottom: 24px;}
+.nav {padding-top: 24px;
+    padding-bottom: 24px;}
 .advantages-list {display: flex; padding-left: 15px; padding-right: 15px; gap: 24px;}
 .advantages-item {flex-basis: calc((100% - 3 * 24px)/ 4)}
 .team-section {
