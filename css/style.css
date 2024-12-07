@@ -199,22 +199,27 @@ color: #f4f4fd;
         justify-content: space-between;
         gap: 40px;
         align-items: center;
+        padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .address-list {display: flex; justify-content: flex-end; gap: 40px; align-items: center; padding-left: 332px;}
 
 .section-advantages {padding-top: 120px;
     padding-bottom: 120px;}
- .visually-hidden {position: absolute; width: 1px;
-  
+.visually-hidden {
+    position: absolute;
+    width: 1px;
     height: 1px;
-  
     margin: -1px;
-    
+    border: 0;
     padding: 0;
-    
-    border: 0; overflow: hidden;}  
-.advantages-list {display: flex; width: calc((100% - 3 * 24 px) / 4 ); padding-left: 15px; padding-right: 15px; gap: 24px;}
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advantages-list {display: flex; width: calc ((100% - 3 * 24px) / 4); padding-left: 15px; padding-right: 15px; gap: 24px;}
 
 .team-section { padding-top: 120px;
  padding-bottom: 120px;}
