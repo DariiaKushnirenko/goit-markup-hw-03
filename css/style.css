@@ -263,8 +263,6 @@ color: #f4f4fd;
 }
 .team-list {
     display: flex; 
-    padding-left: 15px;
-    padding-right: 15px; 
     gap: 24px; 
     text-align: center; 
 } 
